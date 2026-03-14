@@ -1,33 +1,143 @@
-🎮 Project Update: Tic Tac Toe Game using HTML, CSS, and JavaScript!
+🎮 3D Tic Tac Toe Game
+<p align="center"> <img src="https://img.shields.io/badge/Game-TicTacToe-blueviolet?style=for-the-badge"/> <img src="https://img.shields.io/badge/Frontend-HTML%20CSS%20JavaScript-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/Project-Type%20Mini%20Game-success?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/> </p>
+🧠 Project Overview
 
-I’m excited to share my latest mini-project — a fully functional Tic Tac Toe game built with HTML, CSS, and JavaScript. This project was a fun way to strengthen my understanding of DOM manipulation, event handling, and game logic implementation in JavaScript.
+Welcome to my Tic Tac Toe Game, a classic two-player strategy game built using HTML, CSS, and JavaScript with a clean UI and smooth interactions.
 
-💡 About the Project:
-The game allows two players to take turns marking X and O on a 3×3 grid. It automatically detects winning conditions, handles draw scenarios, and displays the game result dynamically. I also added a “New Game” button to reset the board and start again without refreshing the page.
+This project helped me understand how game logic connects with user interface interactions. Players take turns placing X and O on a 3×3 grid, and the system automatically detects winning combinations, draws, and resets the game dynamically.
 
-💻 Tech Stack Used:
+✨ The goal was to build a simple but interactive game while strengthening my JavaScript DOM manipulation and logic building skills.
 
-HTML – for structuring the board and buttons.
+🎥 Project Preview
+<p align="center"> <img src="https://img.shields.io/badge/▶ Live%20Demo-Play%20Game-blue?style=for-the-badge"/> </p>
 
-CSS – for styling the layout with responsive design, hover effects, and clean UI.
+🔗 Live Demo:
+Add your Netlify or GitHub Pages link here
 
-JavaScript – for handling user input, checking winning combinations, and controlling game flow.
+⚡ Features
 
-⚙ Key Learnings:
+✔ Two-player gameplay
+✔ Automatic win detection
+✔ Draw detection system
+✔ Dynamic result display
+✔ Reset / New Game functionality
+✔ Smooth hover effects
+✔ Clean responsive UI
 
-Gained a deeper understanding of how to manipulate DOM elements using querySelector and querySelectorAll.
+🛠 Tech Stack
+🌐 Frontend
+<p> <img src="https://skillicons.dev/icons?i=html,css,js"/> </p>
+Technology	Purpose
+HTML	Structure of the game board
+CSS	Styling, layout, hover effects
+JavaScript	Game logic, DOM manipulation
+🧩 Game Logic
 
-Learned to manage state and alternate player turns efficiently.
+The JavaScript logic performs several tasks:
 
-Implemented logic to determine winning patterns and detect a draw.
+🎯 Player Turn Management
 
-Improved my CSS skills by designing a simple yet engaging game interface.
+Alternates turns between X and O
 
-🚀 Future Enhancements:
-I plan to add features like score tracking, AI opponent mode, and sound effects to make the game more interactive and challenging.
+🏆 Winning Pattern Detection
 
-This project was a great step in applying my JavaScript knowledge to a real interactive application. Each function I wrote helped me understand how logic and UI connect to create a complete user experience.
+Checks 8 possible winning combinations:
 
-🔗 I’d love your feedback or suggestions to make it even better!
-Check out the project demo and code here 👇
-#JavaScript #HTML #CSS #WebDevelopment #FrontendDevelopment #TicTacToe #CodingJourney #ProjectShowcase #LearningByDoing
+[0,1,2]
+[3,4,5]
+[6,7,8]
+[0,3,6]
+[1,4,7]
+[2,5,8]
+[0,4,8]
+[2,4,6]
+🤝 Draw Detection
+
+If all cells are filled without a winner, the game declares Draw.
+
+🎮 Game Interface
+
+The interface contains:
+
+🟦 3×3 Interactive Grid
+🔄 New Game Button
+📢 Dynamic Result Display
+
+CSS adds:
+
+✨ Hover animations
+🎨 Clean minimal UI
+📱 Responsive layout
+
+🧠 What I Learned
+
+This project helped me improve my understanding of:
+
+JavaScript Concepts
+
+DOM manipulation
+
+Event listeners
+
+Game state management
+
+Conditional logic
+
+Arrays and pattern matching
+
+Frontend Skills
+
+UI layout design
+
+Responsive styling
+
+Interactive elements
+
+Problem Solving
+
+Handling user input
+
+Controlling application flow
+
+Connecting UI with logic
+
+🚀 Future Enhancements
+
+Planned upgrades for the project:
+
+✨ AI opponent mode
+✨ Player score tracking
+✨ Sound effects
+✨ Animated win line
+✨ Mobile-optimized UI
+✨ 3D board design
+
+📂 Project Structure
+tic-tac-toe
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+👨‍💻 Author
+
+Jaswant Singh
+
+💻 Developer | MERN Stack Learner | JavaScript Enthusiast
+
+⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
+
+💡 Developer Quote
+
+“Building small games is one of the best ways to understand how logic, UI, and user interaction work together.”
+
+🧠 Tags
+
+#JavaScript
+#HTML
+#CSS
+#FrontendDevelopment
+#TicTacToe
+#CodingProjects
